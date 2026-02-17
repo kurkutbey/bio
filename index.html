@@ -1,64 +1,73 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dashboard Profile</title>
-  <link rel="stylesheet" href="style.css">
+
+
+
 </head>
-<body>
 
-  <div class="container">
+<body class="bg-[#1b1333d9] min-h-screen flex items-center justify-center p-4 lg:p-10">
 
-  
-    <div class="grid">
+  <div class="w-full max-w-6xl">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
 
       <!-- FORM -->
-      <form class="card">
-        <label>نام</label>
-        <input type="text" placeholder="احمدرضا">
+      <form class="bg-[#f1f2ee] p-5 md:p-7 lg:p-10 rounded-2xl md:rounded-3xl shadow-xl flex flex-col gap-3">
 
-        <label>نام خانوادگی</label>
-        <input type="text" placeholder="محمودی">
+        <label class="font-bold text-base md:text-lg lg:text-xl">نام</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="احمدرضا">
 
-        <label>شغل</label>
-        <input type="text" placeholder="ازاد">
-      
-        <label>سن</label>
-        <input type="number" placeholder="25">
+        <label class="font-bold text-base md:text-lg lg:text-xl">نام خانوادگی</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="محمودی">
 
-        <label>مدرک تحصیلی</label>
-       <input type="text" placeholder="دیپلم">
+        <label class="font-bold text-base md:text-lg lg:text-xl">شغل</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="آزاد">
 
-        <label>محل زندگی</label>
-        <input type="text" placeholder="تهران">
+        <label class="font-bold text-base md:text-lg lg:text-xl">سن</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="number" placeholder="25">
 
-        <label>کتاب مورد علاقه</label>
-        <input type="text" placeholder="بیگانه">
-    
+        <label class="font-bold text-base md:text-lg lg:text-xl">مدرک تحصیلی</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="دیپلم">
+
+        <label class="font-bold text-base md:text-lg lg:text-xl">محل زندگی</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="تهران">
+
+        <label class="font-bold text-base md:text-lg lg:text-xl">کتاب مورد علاقه</label>
+        <input class="p-2.5 rounded-xl border border-[#10080c] focus:border-blue-500 outline-none font-semibold"
+          type="text" placeholder="بیگانه">
+
+        <button
+          class="mt-3 py-3 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-bold transition">
+          ذخیره اطلاعات
+        </button>
+
       </form>
-    <div class="loop">
-      <h1>توضیحات</h1>
-      <p class="loop-i">من احمدرضا محمودی هستم عاشق برنامه نویسی هستم و در تلاش هستم تا شغل اینده ام باشد</p>
-    </div>
-   
 
+      <!-- DESCRIPTION -->
+      <div class="flex flex-col gap-4">
 
+        <h1 class="text-center text-wheat text-xl md:text-2xl font-medium text-[#f5deb3]">
+          توضیحات
+        </h1>
 
-    
+        <p class="bg-[#f1f2ee] rounded-xl h-24 flex items-center p-4 font-extrabold text-gray-600 leading-relaxed">
+          من احمدرضا محمودی هستم عاشق برنامه نویسی هستم و در تلاش هستم تا شغل آینده ام باشد
+        </p>
+
+      </div>
 
     </div>
   </div>
-
-</body>
-</html>
 
 </body>
 </html>
